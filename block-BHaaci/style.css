@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/bg-intro-desktop.png);
+    background-color: #ff7978;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0px 20px;
+    padding: 0px 120px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Col*/
+
+.section-1 {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.left-col {
+    width: 45%;
+}
+.left-col h1 {
+    color: white;
+    font-size: 54px;
+    line-height: 1.0;
+    padding-bottom: 32px;
+    font-weight: 700;
+}
+.left-col p {
+    color: rgb(235, 228, 228);
+    font-size: 18px;
+}
+
+/* Right col*/
+
+.right-col {
+    width: 48%;
+}
+
+.trial-box {
+    color: white;
+    text-align: center;
+    background-color: #5d54a3;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.form-box {
+    width: 100%;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 8px;
+    padding: 48px 48px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    border: 1px solid rgb(238, 234, 234);
+    padding: 12px 12px;
+    outline: 0;
+    color: rgb(146, 144, 144);
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border: 1px solid #5d54a3;
+}
+
+button {
+    background-color: #37cc8a;
+    width: 100%;
+    padding: 24px 24px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+.bottom-para {
+    font-size: 10px;
+    color: rgb(160, 156, 156);
+    margin-top: 18px;
+    text-align: center;
+}
+
+.bottom-para strong {
+    font-size: 12px;
+    color: #d13146;
+}
